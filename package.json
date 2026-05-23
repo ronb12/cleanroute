@@ -1,0 +1,11 @@
+{
+  "name": "cleanroute",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "node --check app.js && node --check api/bootstrap.js && node --check api/jobs.js && node --check api/crews.js && node --check api/checkins.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2"
+  }
+}

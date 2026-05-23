@@ -1,1 +1,31 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CleanRoute Prototype</title><link rel="stylesheet" href="./styles.css"></head><body><main><section class="hero"><p>Prototype 4 • Mobile service business</p><h1>CleanRoute</h1><span>Route planning, customer lists, job checklists, invoice status, and crew schedules for cleaning/mobile service crews.</span><button id="route">Optimize Route</button></section><section class="route"><div>Stop 1<br><b>Downtown Office</b></div><div>Stop 2<br><b>Smith Home</b></div><div>Stop 3<br><b>Retail Suite</b></div><div>Stop 4<br><b>Final Invoice</b></div></section></main><script src="./app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CleanRoute</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Field service route dispatch</p>
+          <h1>CleanRoute</h1>
+          <p class="lede">
+            Dispatch crews, sequence jobs, and capture route notes for mobile cleaning operations.
+          </p>
+        </div>
+        <aside class="hero-card">
+          <span>Ops flow</span>
+          <strong>Crews -> jobs -> route check-ins</strong>
+          <p>Built for day-of routing and invoice visibility.</p>
+        </aside>
+      </section>
+      <section id="app" class="app-shell">
+        <div class="loading-card">Loading CleanRoute...</div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
